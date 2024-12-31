@@ -64,7 +64,7 @@ body {
 
 .social-icons-row a:hover {
   text-decoration: underline;
-  color: #005582; /* Darker blue */
+  color: #005582;
 }
 
 /* Items Section */
@@ -73,6 +73,12 @@ body {
   background-color: rgb(215, 23, 62);
   display: flex;
   align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 75px;
+  font-size: 16px;
+  font-family: Playfair Display;
+  box-shadow: 4px 4px 10px 0px rgba(122, 32, 122, 0.5);
 }
 
 .link-text {
