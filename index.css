@@ -12,8 +12,8 @@ body {
 /* Main container */
 .main-container {
   text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 640px;
+  margin: auto;
   background: #ffffff;
   padding: 20px;
   border-radius: 10px;
@@ -22,8 +22,8 @@ body {
 
 /* Headshot Section */
 .image-row img {
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   margin: 10px 0 15px;
   border: 3px solid #ddd;
@@ -48,6 +48,17 @@ body {
   color: #0077b5; /* LinkedIn Blue */
   font-weight: bold;
   font-size: 18px;
+}
+
+.item {
+  background-color: rgba(149, 123, 173, 0.5);
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
 
 .social-icons-row a:hover {
